@@ -9,6 +9,13 @@ body {
   background-color: #bbd7ed;
   border: none;
 }
+.loading {
+  color: #878787;
+  font-size: 40px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  padding: 80px;
+  text-align: center;
+}
 .Weather .form-control {
   background-color: #e6f1f9;
   color: #878787;
