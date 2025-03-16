@@ -67,7 +67,9 @@ body {
   top: -32px;
   line-height: 1;
 }
-
+.Weather .unit a {
+  text-decoration: none;
+}
 .Weather .weather-details {
   margin-top: 20px;
 }
