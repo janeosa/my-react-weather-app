@@ -52,7 +52,7 @@ body {
   font-weight: 400;
 }
 
-.Weather img {
+.Weather .main-weather-image {
   width: 88px;
   height: 88px;
   margin-top: -40px;
