@@ -24,6 +24,7 @@ body {
   background-color: white;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  box-shadow: 0 15px 25px rgba(24, 18, 37, 0.2);
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #878787;
   padding: 30px 20px 20px 20px;
@@ -31,10 +32,11 @@ body {
 }
 
 .Weather h1 {
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 44px;
   margin: 20px 0 0 0;
+  color: #212121;
 }
 .Weather ul {
   margin: 0;
