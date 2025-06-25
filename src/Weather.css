@@ -89,7 +89,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .form-control {
     width: 100%;
   }
@@ -108,11 +108,29 @@ a:hover {
     justify-content: start;
   }
   .main-weather-image {
-    margin: -300px 190px;
+    margin: -90px 0px;
     padding: 5px 5px;
   }
-  .Weather li {
-    display: flex;
-    align-items: center;
+  .WeatherInfo h1 {
+    font-size: 36px;
+  }
+  .WeatherTemperature {
+    margin: -100px 0px 10px 118px;
+    padding-left: 20px;
+  }
+  .WeatherTemperature .temperature {
+    font-size: 40px;
+    top: -30px;
+    left: -5px;
+    position: relative;
+  }
+  .WeatherTemperature .unit {
+    font-size: 18px;
+    top: -78px;
+    left: 45px;
+  }
+
+  .weather-details {
+    padding: 8px 0px;
   }
 }
