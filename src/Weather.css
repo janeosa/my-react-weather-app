@@ -88,3 +88,31 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+@media (max-width: 800px) {
+  .form-control {
+    width: 100%;
+  }
+  .col-9 {
+    width: 65%;
+    padding: 0 8px;
+  }
+  .col-3 {
+    width: 35%;
+    padding: 0 8px;
+  }
+  .clearfix {
+    display: grid;
+    align-items: end;
+    justify-items: start;
+    justify-content: start;
+  }
+  .main-weather-image {
+    margin: -300px 190px;
+    padding: 5px 5px;
+  }
+  .Weather li {
+    display: flex;
+    align-items: center;
+  }
+}
