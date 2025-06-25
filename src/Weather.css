@@ -122,12 +122,12 @@ a:hover {
   }
   .WeatherTemperature .temperature {
     font-size: 40px;
-    top: 5px;
+    top: 10px;
     position: relative;
   }
   .WeatherTemperature .unit {
     font-size: 18px;
-    top: -45px;
+    top: -38px;
     left: 50px;
   }
 
