@@ -4,6 +4,8 @@ body {
     rgb(204, 228, 247) 11.2%,
     rgb(237, 246, 250) 100.2%
   );
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .btn-primary {
   background-color: #bbd7ed;
@@ -120,14 +122,13 @@ a:hover {
   }
   .WeatherTemperature .temperature {
     font-size: 40px;
-    top: -30px;
-    left: -5px;
+    top: 5px;
     position: relative;
   }
   .WeatherTemperature .unit {
     font-size: 18px;
-    top: -78px;
-    left: 45px;
+    top: -45px;
+    left: 50px;
   }
 
   .weather-details {
